@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+
+}
+
+#navbar {
+     display: flex;
+     justify-content: space-between;
+}
+
+.logo {
+     padding-left: 5px;
+     font-family: "DM Serif Display", serif;
+     font-weight: 400;
+     font-size: larger;
+     color: white;
+}
+
+span {
+     color: rgb(255, 146, 57);
+}
+
+.navigation {
+     padding-top: 15px;
+     font-family: "Montserrat Alternates", serif;
+
+}
+
+.navigation ul {
+     display: flex;
+}
+
+.navigation ul li {
+     list-style: none;
+}
+
+.navigation ul li a {
+     text-decoration: none;
+     padding-right: 72px;
+     font-size: 1.5rem;
+     color: white;
+}
+
+.navigation ul li a:hover {
+     color: rgb(255, 146, 57);
+}
+
+.navigation ul li a:active {
+     color: rgb(255, 146, 57);
+}
+
+.icons {
+     padding: 20px;
+}
+
+.icons i {
+     padding-left: 32px;
+     font-size: 1.5rem;
+     color: white;
+}
+
+.icons i:hover {
+     color: gray;
+}
+
+#home {
+     display: flex;
+     flex-direction: column;
+     padding: 3px 200px;
+     justify-content: center;
+     align-items: center;
+}
+
+.bg {
+     background: url(Images/honeybee-9150104_1920.jpg) no-repeat center center/cover;
+     opacity: 0.8;
+     height: 30vh;
+}
+
+#home h1 {
+     color: white;
+     font-size: 3.2rem;
+     font-family: "DM Serif Display", serif;
+}
+
+/* CONTACT */
+.contactMe {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     height: 500px;
+     background-color: rgb(248, 222, 174);
+     padding: 5px 190px;
+}
+
+.location {
+     height: 330px;
+     width: 430px;
+}
+
+.map {
+     padding: 30px;
+     padding-top: 60px;
+}
+
+.cont2 {
+     padding-top: 50px;
+     padding-left: 10px;
+     font-size: 1.2rem;
+     font-weight: 500;
+     color: rgb(255, 146, 57);
+     font-family: "Montserrat Alternates", serif;
+
+}
+
+input {
+     background-color: rgb(248, 222, 174);
+     height: 29px;
+     width: 320px;
+     border: 1px solid rgb(255, 146, 57);
+     ;
+     border-radius: 4px;
+}
+
+#msg {
+     width: 320px;
+     height: 150px;
+     background-color: rgb(248, 222, 174);
+}
+
+#sub,
+#msg {
+     font-size: 1.3rem;
+     color: rgb(255, 146, 57);
+     font-family: "Montserrat Alternates", serif;
+     cursor: pointer;
+}
+
+.fa-solid {
+     color: rgb(255, 146, 57);
+}
+
+/* Footer */
+footer {
+     border: 0.5px solid rgb(241, 241, 245);
+     padding: 7px;
+     color: rgb(56, 54, 54);
+     background-color: rgb(231, 128, 44);
+     text-align: center;
+     font-family: "DM Serif Display", serif;
+     font-size: 1rem;
+}
