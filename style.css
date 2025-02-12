@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     background: url(Images/honeybee-9150104_1920.jpg) no-repeat center center/cover;
+     height: 100vh;
+     width: 100%;
+}
+
+#navbar {
+     display: flex;
+     justify-content: space-between;
+}
+
+.logo {
+     padding-left: 5px;
+     font-family: "DM Serif Display", serif;
+     font-weight: 400;
+     font-size: larger;
+     color: white;
+}
+
+span {
+     color: rgb(255, 146, 57);
+}
+
+.navigation {
+     padding-top: 15px;
+     font-family: "Montserrat Alternates", serif;
+
+}
+
+.navigation ul {
+     display: flex;
+}
+
+.navigation ul li {
+     list-style: none;
+}
+
+.navigation ul li a {
+     text-decoration: none;
+     padding-right: 72px;
+     font-size: 1.5rem;
+     color: rgb(255, 146, 57);
+}
+
+.navigation ul li a:hover {
+     color: white;
+}
+
+.navigation ul li a:active {
+     color: white
+}
+
+.icons {
+     padding: 20px;
+}
+
+.icons i {
+     padding-left: 32px;
+     font-size: 1.5rem;
+     color: rgb(255, 146, 57);
+}
+
+#home {
+     display: flex;
+     flex-direction: column;
+     padding: 3px 200px;
+     justify-content: center;
+     align-items: center;
+     height: 550px;
+}
+
+#home h1 {
+     color: white;
+     font-size: 3.2rem;
+     font-family: "DM Serif Display", serif;
+}
+
+#home p {
+     color: white;
+     font-size: 1.2rem;
+     font-family: "Montserrat Alternates", serif;
+     margin-bottom: 37px;
+}
+
+#btn {
+     padding: 7px;
+     font-size: 1.4rem;
+     background: none;
+     font-family: "DM Serif Display", serif;
+     border: 3px solid rgb(97, 97, 97);
+     border-radius: 10px;
+     cursor: pointer;
+     backdrop-filter: blur(10px);
+}
+
+#btn a {
+     text-decoration: none;
+     color: white;
+}
+
+#btn:hover {
+     border: none;
+     color: rgb(54, 53, 53);
+     backdrop-filter: blur(17px);
+     font-size: 2rem;
+}
